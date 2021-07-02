@@ -1,11 +1,11 @@
 import React from 'react';
-import { ImageBackground, Text, View, FlatList } from 'react-native';
+import { Text, View } from 'react-native';
 
 import { theme } from '../../global/styles/theme';
 import { Avatar } from '../Avatar';
 import { styles } from './styles';
 
-type MemberProps = {
+export type MemberProps = {
     id: string;
     username: string;
     avatar_url: string;
